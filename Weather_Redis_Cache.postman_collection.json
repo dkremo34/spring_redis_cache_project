@@ -1,0 +1,45 @@
+{
+	"info": {
+		"_postman_id": "c2357389-c003-46aa-9313-d172ab130fad",
+		"name": "Weather_Redis_Cache",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "5209579"
+	},
+	"item": [
+		{
+			"name": "redisAllCache",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/weather?city=delhi",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "city",
+							"value": "delhi"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getWeather Copy",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
