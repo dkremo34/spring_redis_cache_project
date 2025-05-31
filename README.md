@@ -7,9 +7,18 @@ Cache concept with Redis
   2. Distributed
 
 Annotation-
-  @Configuration
-  @EnableCaching
-  @Cacheable(value="nameofcahce", key="#city")
-  @CachePut(value="nameofcahce", key="#city")
-  @CacheEvict(value="nameofcahce", key="#city")
+  1. @Configuration
+  2. @EnableCaching
+  3. @Cacheable(value="nameofcahce", key="#city")
+  4. @CachePut(value="nameofcahce", key="#city")
+  5.  @CacheEvict(value="nameofcahce", key="#city")
+
+
+Import Postman collection-
+**  Weather_Redis_Cache.postman_collection**
+
+  
+  
+  
+ 
   
